@@ -66,6 +66,12 @@ return {
           desc = "Open buffers with Telescope",
         },
 
+        -- Session Restore
+        ["<Leader>ss"] = {
+          "<cmd>SessionRestore<cr>",
+          desc = "Restore last session",
+        },
+
         -- Move between windows with ctrl + hjkl
         ["<C-h>"] = { "<C-w>h", desc = "Move to left window" },
         ["<C-j>"] = { "<C-w>j", desc = "Move to below window" },
